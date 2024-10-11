@@ -128,4 +128,29 @@ class Calculadora
         double resultado = num1 * num2;
         Console.WriteLine($"\nEl resultado de la multiplicación es: {resultado}");
     }
+
+    static void RealizarDivision()
+    {
+        Console.Clear();
+        Console.WriteLine("--- División ---");
+
+        double num1 = PedirNumero("primer");
+        double num2 = PedirNumero("segundo");
+
+        if (num2 != 0)
+        {
+            double resultado = num1 / num2;
+            Console.WriteLine($"\nEl resultado de la división es: {resultado}");
+        }
+        else
+        {
+            Console.WriteLine("Error: No se puede dividir entre cero.");
+        }
+    }
+
+    static double PedirNumero(string orden)
+    {
+        Console.Write($"Ingresa el {orden} número: ");
+        return Convert.ToDouble(Console.ReadLine());
+    }
 }
