@@ -45,4 +45,22 @@ class Calculadora
         return opcionSeleccionada;
     }
 
+    static void MostrarMenu(int opcionSeleccionada)
+    {
+        string[] opciones = { "Suma", "Resta", "Multiplicación", "División", "Salir" };
+        for (int i = 0; i < opciones.Length; i++)
+        {
+            if (i + 1 == opcionSeleccionada)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"> {opciones[i]}");
+                Console.ResetColor();
+            }
+            else
+            {
+                Console.WriteLine($"  {opciones[i]}");
+            }
+        }
+    }
+
 }
