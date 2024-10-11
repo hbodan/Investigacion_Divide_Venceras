@@ -61,6 +61,36 @@ class Calculadora
                 Console.WriteLine($"  {opciones[i]}");
             }
         }
+
+    }
+
+    static void EjecutarOpcion(int opcion, ref bool continuar)
+    {
+        switch (opcion)
+        {
+            case 1:
+                RealizarSuma();
+                break;
+            case 2:
+                RealizarResta();
+                break;
+            case 3:
+                RealizarMultiplicacion();
+                break;
+            case 4:
+                RealizarDivision();
+                break;
+            case 5:
+                continuar = false;
+                Console.WriteLine("Saliendo de la calculadora...");
+                break;
+        }
+
+        if (continuar)
+        {
+            Console.WriteLine("\nPresiona cualquier tecla para continuar...");
+            Console.ReadKey();
+        }
     }
 
 }
