@@ -117,4 +117,15 @@ class Calculadora
         Console.WriteLine($"\nEl resultado de la resta es: {resultado}");
     }
 
+    static void RealizarMultiplicacion()
+    {
+        Console.Clear();
+        Console.WriteLine("--- Multiplicación ---");
+
+        double num1 = PedirNumero("primer");
+        double num2 = PedirNumero("segundo");
+
+        double resultado = num1 * num2;
+        Console.WriteLine($"\nEl resultado de la multiplicación es: {resultado}");
+    }
 }

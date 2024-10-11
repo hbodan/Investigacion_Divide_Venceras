@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/marie/Investigacion_Divide_Venceras/Calculadora.csproj": {}
+    "D:\\Documents\\Workspace - C#\\SEMESTRE 2\\Investigacion_Divide_Venceras\\Calculadora.csproj": {}
   },
   "projects": {
-    "/Users/marie/Investigacion_Divide_Venceras/Calculadora.csproj": {
+    "D:\\Documents\\Workspace - C#\\SEMESTRE 2\\Investigacion_Divide_Venceras\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marie/Investigacion_Divide_Venceras/Calculadora.csproj",
+        "projectUniqueName": "D:\\Documents\\Workspace - C#\\SEMESTRE 2\\Investigacion_Divide_Venceras\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "/Users/marie/Investigacion_Divide_Venceras/Calculadora.csproj",
-        "packagesPath": "/Users/marie/.nuget/packages/",
-        "outputPath": "/Users/marie/Investigacion_Divide_Venceras/obj/",
+        "projectPath": "D:\\Documents\\Workspace - C#\\SEMESTRE 2\\Investigacion_Divide_Venceras\\Calculadora.csproj",
+        "packagesPath": "C:\\Users\\thefu\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Workspace - C#\\SEMESTRE 2\\Investigacion_Divide_Venceras\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/marie/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\thefu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -51,15 +62,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.33, 6.0.33]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[6.0.31, 6.0.31]"
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.33, 6.0.33]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
             }
           ],
           "frameworkReferences": {
@@ -67,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\thefu\\scoop\\apps\\dotnet-sdk\\current\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
