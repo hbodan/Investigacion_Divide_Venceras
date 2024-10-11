@@ -105,4 +105,16 @@ class Calculadora
         Console.WriteLine($"\nEl resultado de la suma es: {resultado}");
     }
 
+    static void RealizarResta()
+    {
+        Console.Clear();
+        Console.WriteLine("--- Resta ---");
+
+        double num1 = PedirNumero("primer");
+        double num2 = PedirNumero("segundo");
+
+        double resultado = num1 - num2;
+        Console.WriteLine($"\nEl resultado de la resta es: {resultado}");
+    }
+
 }
