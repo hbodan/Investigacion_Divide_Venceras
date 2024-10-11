@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kR7MLhYHjzCv08guOz2XrWqNZAJqRsKAIXW5AM6cOiIOsumVGzGgVvuu5YSkYld+JAUiiHB0ZZ1GYjHxwppy2w==",
+  "dgSpecHash": "Nsa361HGepU=",
   "success": true,
-  "projectFilePath": "/Users/marie/Investigacion_Divide_Venceras/Calculadora.csproj",
-  "expectedPackageFiles": [
-    "/Users/marie/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
-    "/Users/marie/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
-    "/Users/marie/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\hebod\\source\\repos\\Calculadora\\Calculadora.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

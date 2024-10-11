@@ -93,4 +93,16 @@ class Calculadora
         }
     }
 
+    static void RealizarSuma()
+    {
+        Console.Clear();
+        Console.WriteLine("--- Suma ---");
+
+        double num1 = PedirNumero("primer");
+        double num2 = PedirNumero("segundo");
+
+        double resultado = num1 + num2;
+        Console.WriteLine($"\nEl resultado de la suma es: {resultado}");
+    }
+
 }
